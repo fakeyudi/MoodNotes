@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFE48FF726AE88FC001405CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE48FF626AE88FC001405CD /* AppDelegate.swift */; };
+		AFE48FF926AE88FC001405CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE48FF826AE88FC001405CD /* SceneDelegate.swift */; };
+		AFE48FFE26AE88FC001405CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE48FFC26AE88FC001405CD /* Main.storyboard */; };
+		AFE4900126AE88FC001405CD /* MoodNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFE48FFF26AE88FC001405CD /* MoodNotes.xcdatamodeld */; };
+		AFE4900326AE88FE001405CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE4900226AE88FE001405CD /* Assets.xcassets */; };
+		AFE4900626AE88FE001405CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE4900426AE88FE001405CD /* LaunchScreen.storyboard */; };
+		AFE4901126AE88FE001405CD /* MoodNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4901026AE88FE001405CD /* MoodNotesTests.swift */; };
+		AFE4901C26AE88FE001405CD /* MoodNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4901B26AE88FE001405CD /* MoodNotesUITests.swift */; };
+		AFE4902B26AE8995001405CD /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4902926AE8995001405CD /* Note+CoreDataClass.swift */; };
+		AFE4902C26AE8995001405CD /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4902A26AE8995001405CD /* Note+CoreDataProperties.swift */; };
+		AFE4902F26AE89EF001405CD /* NoteHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4902E26AE89EF001405CD /* NoteHandler.swift */; };
+		AFE4903226AE946E001405CD /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4903126AE946E001405CD /* Enums.swift */; };
+		AFE4903426AE9585001405CD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4903326AE9585001405CD /* Extensions.swift */; };
+		AFE4903626AE958E001405CD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4903526AE958E001405CD /* Constants.swift */; };
+		AFE4904126AEE23A001405CD /* TextViewPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4904026AEE23A001405CD /* TextViewPlaceholder.swift */; };
+		AFE4904426AEE3B1001405CD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4904326AEE3B1001405CD /* HomeViewController.swift */; };
+		AFE4904626AEE3D4001405CD /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4904526AEE3D4001405CD /* NoteViewController.swift */; };
+		AFE4904726AEE7FF001405CD /* CircularStd-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE4903826AEDAFC001405CD /* CircularStd-BoldItalic.ttf */; };
+		AFE4904826AEE7FF001405CD /* CircularStd-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE4903C26AEDAFC001405CD /* CircularStd-Black.ttf */; };
+		AFE4904926AEE7FF001405CD /* CircularStd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE4903E26AEDAFC001405CD /* CircularStd-Bold.ttf */; };
+		AFE4904A26AEE7FF001405CD /* CircularStd-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE4903D26AEDAFC001405CD /* CircularStd-BookItalic.ttf */; };
+		AFE4904B26AEE7FF001405CD /* CircularStd-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE4903F26AEDAFC001405CD /* CircularStd-Medium.ttf */; };
+		AFE4904C26AEE7FF001405CD /* CircularStd-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE4903926AEDAFC001405CD /* CircularStd-MediumItalic.ttf */; };
+		AFE4904D26AEE7FF001405CD /* CircularStd-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE4903A26AEDAFC001405CD /* CircularStd-BlackItalic.ttf */; };
+		AFE4904E26AEE7FF001405CD /* CircularStd-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE4903B26AEDAFC001405CD /* CircularStd-Book.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFE4900D26AE88FE001405CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFE48FEB26AE88FC001405CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFE48FF226AE88FC001405CD;
+			remoteInfo = MoodNotes;
+		};
+		AFE4901826AE88FE001405CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFE48FEB26AE88FC001405CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFE48FF226AE88FC001405CD;
+			remoteInfo = MoodNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFE48FF326AE88FC001405CD /* MoodNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE48FF626AE88FC001405CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFE48FF826AE88FC001405CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFE48FFD26AE88FC001405CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFE4900026AE88FC001405CD /* MoodNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoodNotes.xcdatamodel; sourceTree = "<group>"; };
+		AFE4900226AE88FE001405CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFE4900526AE88FE001405CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFE4900726AE88FE001405CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE4900C26AE88FE001405CD /* MoodNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE4901026AE88FE001405CD /* MoodNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodNotesTests.swift; sourceTree = "<group>"; };
+		AFE4901226AE88FE001405CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE4901726AE88FE001405CD /* MoodNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE4901B26AE88FE001405CD /* MoodNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodNotesUITests.swift; sourceTree = "<group>"; };
+		AFE4901D26AE88FE001405CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE4902926AE8995001405CD /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AFE4902A26AE8995001405CD /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AFE4902E26AE89EF001405CD /* NoteHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteHandler.swift; sourceTree = "<group>"; };
+		AFE4903126AE946E001405CD /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		AFE4903326AE9585001405CD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AFE4903526AE958E001405CD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AFE4903826AEDAFC001405CD /* CircularStd-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AFE4903926AEDAFC001405CD /* CircularStd-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-MediumItalic.ttf"; sourceTree = "<group>"; };
+		AFE4903A26AEDAFC001405CD /* CircularStd-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-BlackItalic.ttf"; sourceTree = "<group>"; };
+		AFE4903B26AEDAFC001405CD /* CircularStd-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.ttf"; sourceTree = "<group>"; };
+		AFE4903C26AEDAFC001405CD /* CircularStd-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Black.ttf"; sourceTree = "<group>"; };
+		AFE4903D26AEDAFC001405CD /* CircularStd-BookItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-BookItalic.ttf"; sourceTree = "<group>"; };
+		AFE4903E26AEDAFC001405CD /* CircularStd-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.ttf"; sourceTree = "<group>"; };
+		AFE4903F26AEDAFC001405CD /* CircularStd-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.ttf"; sourceTree = "<group>"; };
+		AFE4904026AEE23A001405CD /* TextViewPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewPlaceholder.swift; sourceTree = "<group>"; };
+		AFE4904326AEE3B1001405CD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AFE4904526AEE3D4001405CD /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFE48FF026AE88FC001405CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE4900926AE88FE001405CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE4901426AE88FE001405CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFE48FEA26AE88FC001405CD = {
+			isa = PBXGroup;
+			children = (
+				AFE48FF526AE88FC001405CD /* MoodNotes */,
+				AFE4900F26AE88FE001405CD /* MoodNotesTests */,
+				AFE4901A26AE88FE001405CD /* MoodNotesUITests */,
+				AFE48FF426AE88FC001405CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFE48FF426AE88FC001405CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFE48FF326AE88FC001405CD /* MoodNotes.app */,
+				AFE4900C26AE88FE001405CD /* MoodNotesTests.xctest */,
+				AFE4901726AE88FE001405CD /* MoodNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFE48FF526AE88FC001405CD /* MoodNotes */ = {
+			isa = PBXGroup;
+			children = (
+				AFE4904226AEE38E001405CD /* Controller */,
+				AFE4903026AE945D001405CD /* Utils */,
+				AFE48FF626AE88FC001405CD /* AppDelegate.swift */,
+				AFE48FF826AE88FC001405CD /* SceneDelegate.swift */,
+				AFE48FFC26AE88FC001405CD /* Main.storyboard */,
+				AFE4900226AE88FE001405CD /* Assets.xcassets */,
+				AFE4900426AE88FE001405CD /* LaunchScreen.storyboard */,
+				AFE4900726AE88FE001405CD /* Info.plist */,
+				AFE4903726AEDAFC001405CD /* C std */,
+				AFE4902D26AE89B3001405CD /* CoreData */,
+			);
+			path = MoodNotes;
+			sourceTree = "<group>";
+		};
+		AFE4900F26AE88FE001405CD /* MoodNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFE4901026AE88FE001405CD /* MoodNotesTests.swift */,
+				AFE4901226AE88FE001405CD /* Info.plist */,
+			);
+			path = MoodNotesTests;
+			sourceTree = "<group>";
+		};
+		AFE4901A26AE88FE001405CD /* MoodNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFE4901B26AE88FE001405CD /* MoodNotesUITests.swift */,
+				AFE4901D26AE88FE001405CD /* Info.plist */,
+			);
+			path = MoodNotesUITests;
+			sourceTree = "<group>";
+		};
+		AFE4902D26AE89B3001405CD /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				AFE4902E26AE89EF001405CD /* NoteHandler.swift */,
+				AFE4902926AE8995001405CD /* Note+CoreDataClass.swift */,
+				AFE4902A26AE8995001405CD /* Note+CoreDataProperties.swift */,
+				AFE48FFF26AE88FC001405CD /* MoodNotes.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		AFE4903026AE945D001405CD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AFE4903126AE946E001405CD /* Enums.swift */,
+				AFE4904026AEE23A001405CD /* TextViewPlaceholder.swift */,
+				AFE4903326AE9585001405CD /* Extensions.swift */,
+				AFE4903526AE958E001405CD /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AFE4903726AEDAFC001405CD /* C std */ = {
+			isa = PBXGroup;
+			children = (
+				AFE4903826AEDAFC001405CD /* CircularStd-BoldItalic.ttf */,
+				AFE4903926AEDAFC001405CD /* CircularStd-MediumItalic.ttf */,
+				AFE4903A26AEDAFC001405CD /* CircularStd-BlackItalic.ttf */,
+				AFE4903B26AEDAFC001405CD /* CircularStd-Book.ttf */,
+				AFE4903C26AEDAFC001405CD /* CircularStd-Black.ttf */,
+				AFE4903D26AEDAFC001405CD /* CircularStd-BookItalic.ttf */,
+				AFE4903E26AEDAFC001405CD /* CircularStd-Bold.ttf */,
+				AFE4903F26AEDAFC001405CD /* CircularStd-Medium.ttf */,
+			);
+			path = "C std";
+			sourceTree = "<group>";
+		};
+		AFE4904226AEE38E001405CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AFE4904326AEE3B1001405CD /* HomeViewController.swift */,
+				AFE4904526AEE3D4001405CD /* NoteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFE48FF226AE88FC001405CD /* MoodNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE4902026AE88FE001405CD /* Build configuration list for PBXNativeTarget "MoodNotes" */;
+			buildPhases = (
+				AFE48FEF26AE88FC001405CD /* Sources */,
+				AFE48FF026AE88FC001405CD /* Frameworks */,
+				AFE48FF126AE88FC001405CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoodNotes;
+			productName = MoodNotes;
+			productReference = AFE48FF326AE88FC001405CD /* MoodNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFE4900B26AE88FE001405CD /* MoodNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE4902326AE88FE001405CD /* Build configuration list for PBXNativeTarget "MoodNotesTests" */;
+			buildPhases = (
+				AFE4900826AE88FE001405CD /* Sources */,
+				AFE4900926AE88FE001405CD /* Frameworks */,
+				AFE4900A26AE88FE001405CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFE4900E26AE88FE001405CD /* PBXTargetDependency */,
+			);
+			name = MoodNotesTests;
+			productName = MoodNotesTests;
+			productReference = AFE4900C26AE88FE001405CD /* MoodNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFE4901626AE88FE001405CD /* MoodNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE4902626AE88FE001405CD /* Build configuration list for PBXNativeTarget "MoodNotesUITests" */;
+			buildPhases = (
+				AFE4901326AE88FE001405CD /* Sources */,
+				AFE4901426AE88FE001405CD /* Frameworks */,
+				AFE4901526AE88FE001405CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFE4901926AE88FE001405CD /* PBXTargetDependency */,
+			);
+			name = MoodNotesUITests;
+			productName = MoodNotesUITests;
+			productReference = AFE4901726AE88FE001405CD /* MoodNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFE48FEB26AE88FC001405CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AFE48FF226AE88FC001405CD = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AFE4900B26AE88FE001405CD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AFE48FF226AE88FC001405CD;
+					};
+					AFE4901626AE88FE001405CD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AFE48FF226AE88FC001405CD;
+					};
+				};
+			};
+			buildConfigurationList = AFE48FEE26AE88FC001405CD /* Build configuration list for PBXProject "MoodNotes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFE48FEA26AE88FC001405CD;
+			productRefGroup = AFE48FF426AE88FC001405CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFE48FF226AE88FC001405CD /* MoodNotes */,
+				AFE4900B26AE88FE001405CD /* MoodNotesTests */,
+				AFE4901626AE88FE001405CD /* MoodNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFE48FF126AE88FC001405CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE4904B26AEE7FF001405CD /* CircularStd-Medium.ttf in Resources */,
+				AFE4900626AE88FE001405CD /* LaunchScreen.storyboard in Resources */,
+				AFE4900326AE88FE001405CD /* Assets.xcassets in Resources */,
+				AFE4904926AEE7FF001405CD /* CircularStd-Bold.ttf in Resources */,
+				AFE4904A26AEE7FF001405CD /* CircularStd-BookItalic.ttf in Resources */,
+				AFE4904C26AEE7FF001405CD /* CircularStd-MediumItalic.ttf in Resources */,
+				AFE4904726AEE7FF001405CD /* CircularStd-BoldItalic.ttf in Resources */,
+				AFE48FFE26AE88FC001405CD /* Main.storyboard in Resources */,
+				AFE4904E26AEE7FF001405CD /* CircularStd-Book.ttf in Resources */,
+				AFE4904826AEE7FF001405CD /* CircularStd-Black.ttf in Resources */,
+				AFE4904D26AEE7FF001405CD /* CircularStd-BlackItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE4900A26AE88FE001405CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE4901526AE88FE001405CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFE48FEF26AE88FC001405CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE4904126AEE23A001405CD /* TextViewPlaceholder.swift in Sources */,
+				AFE4902F26AE89EF001405CD /* NoteHandler.swift in Sources */,
+				AFE4903426AE9585001405CD /* Extensions.swift in Sources */,
+				AFE48FF726AE88FC001405CD /* AppDelegate.swift in Sources */,
+				AFE4904626AEE3D4001405CD /* NoteViewController.swift in Sources */,
+				AFE4902B26AE8995001405CD /* Note+CoreDataClass.swift in Sources */,
+				AFE4903626AE958E001405CD /* Constants.swift in Sources */,
+				AFE4900126AE88FC001405CD /* MoodNotes.xcdatamodeld in Sources */,
+				AFE4904426AEE3B1001405CD /* HomeViewController.swift in Sources */,
+				AFE48FF926AE88FC001405CD /* SceneDelegate.swift in Sources */,
+				AFE4903226AE946E001405CD /* Enums.swift in Sources */,
+				AFE4902C26AE8995001405CD /* Note+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE4900826AE88FE001405CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE4901126AE88FE001405CD /* MoodNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE4901326AE88FE001405CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE4901C26AE88FE001405CD /* MoodNotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFE4900E26AE88FE001405CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFE48FF226AE88FC001405CD /* MoodNotes */;
+			targetProxy = AFE4900D26AE88FE001405CD /* PBXContainerItemProxy */;
+		};
+		AFE4901926AE88FE001405CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFE48FF226AE88FC001405CD /* MoodNotes */;
+			targetProxy = AFE4901826AE88FE001405CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFE48FFC26AE88FC001405CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE48FFD26AE88FC001405CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFE4900426AE88FE001405CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE4900526AE88FE001405CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFE4901E26AE88FE001405CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFE4901F26AE88FE001405CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFE4902126AE88FE001405CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5966D3T864;
+				INFOPLIST_FILE = MoodNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.fakeyudi.MoodNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFE4902226AE88FE001405CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5966D3T864;
+				INFOPLIST_FILE = MoodNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.fakeyudi.MoodNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFE4902426AE88FE001405CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5966D3T864;
+				INFOPLIST_FILE = MoodNotesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.fakeyudi.MoodNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodNotes.app/MoodNotes";
+			};
+			name = Debug;
+		};
+		AFE4902526AE88FE001405CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5966D3T864;
+				INFOPLIST_FILE = MoodNotesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.fakeyudi.MoodNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodNotes.app/MoodNotes";
+			};
+			name = Release;
+		};
+		AFE4902726AE88FE001405CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5966D3T864;
+				INFOPLIST_FILE = MoodNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.fakeyudi.MoodNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoodNotes;
+			};
+			name = Debug;
+		};
+		AFE4902826AE88FE001405CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5966D3T864;
+				INFOPLIST_FILE = MoodNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.fakeyudi.MoodNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoodNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFE48FEE26AE88FC001405CD /* Build configuration list for PBXProject "MoodNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE4901E26AE88FE001405CD /* Debug */,
+				AFE4901F26AE88FE001405CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE4902026AE88FE001405CD /* Build configuration list for PBXNativeTarget "MoodNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE4902126AE88FE001405CD /* Debug */,
+				AFE4902226AE88FE001405CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE4902326AE88FE001405CD /* Build configuration list for PBXNativeTarget "MoodNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE4902426AE88FE001405CD /* Debug */,
+				AFE4902526AE88FE001405CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE4902626AE88FE001405CD /* Build configuration list for PBXNativeTarget "MoodNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE4902726AE88FE001405CD /* Debug */,
+				AFE4902826AE88FE001405CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFE48FFF26AE88FC001405CD /* MoodNotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFE4900026AE88FC001405CD /* MoodNotes.xcdatamodel */,
+			);
+			currentVersion = AFE4900026AE88FC001405CD /* MoodNotes.xcdatamodel */;
+			path = MoodNotes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFE48FEB26AE88FC001405CD /* Project object */;
+}
