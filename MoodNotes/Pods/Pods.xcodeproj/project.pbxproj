@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07B8968BD31271E7FC18D85921C2AC0F /* BetterSegmentedControl+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = C538A437232463ED845CD11582AC2CA3 /* BetterSegmentedControl+Options.swift */; };
+		0AC3A362AC3E567A4D1D56AEE46CB12F /* BetterSegmentedControl+IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D42CA4DD8CEBF6F8E7B44FA071A06 /* BetterSegmentedControl+IndicatorView.swift */; };
+		1A64BD38A2E284BCF9E3737CB0175BE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		28805E1F58DEF8ABAD50DD87BFE9072E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2AA8A25AD6181EC55EFEB2243CDC2C17 /* BetterSegmentedControl+UIPointerInteractionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD99AB9897A4A1C0BC4F98EA815342F /* BetterSegmentedControl+UIPointerInteractionDelegate.swift */; };
+		4329742D5D8045FC99A4F2CF8A0CBEFF /* Pods-MoodNotes-MoodNotesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9974B2ED8BD8A15BA815E3788CB3F /* Pods-MoodNotes-MoodNotesUITests-dummy.m */; };
+		566E310657BDE3DC19F32D814E89F007 /* LabelSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CFECB5FD09CFC0F9F00FE185FD2D09 /* LabelSegment.swift */; };
+		649FF14F1BEDBCD9190ABFA52A2B5093 /* UIView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C5AEE593FA44B3389780FF3EB8590C /* UIView+Helpers.swift */; };
+		6997891C4061A45CA95B6E960D31C491 /* BetterSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F655E4F761C5B8F2E3DAA9D13A4EB0B /* BetterSegmentedControl.swift */; };
+		71EA36AE6524B7BBEDE1BDB7BE3B021B /* BetterSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B89A5D0756D705FF076B5A7FFA85BB3B /* BetterSegmentedControl-dummy.m */; };
+		777FB42717683D06BB6F3C5417498F76 /* Pods-MoodNotes-MoodNotesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF45B993488FB177613812CCC2DE09BB /* Pods-MoodNotes-MoodNotesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		847173EF9130787F1D213DF1BC2B4828 /* Pods-MoodNotes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 065C71EA6152787665117F6D377ED20E /* Pods-MoodNotes-dummy.m */; };
+		9A43C8C2D3011AAC543038A3C57927A3 /* BetterSegmentedControl+IBDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DC52299F8F08F6BFCDDE1A0A43211C /* BetterSegmentedControl+IBDesignable.swift */; };
+		A268632B3937A44826947456601E32BB /* IconSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3146A2FF177EC8A1D818E7D6C329BEEC /* IconSegment.swift */; };
+		A84B6BFCE5465C7F0D70CAB2EB9772FE /* Pods-MoodNotesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE26EB6E20E979D8A663439EFB67C4F /* Pods-MoodNotesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACF3054A4868B3161B3DBB9FE58EEAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		BC95D61A2816D757C4E9AB90C243F05D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C7DEFB89A1384CACED536E39301F77E4 /* UIColor+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883230A6481E851EE2D518915A618F75 /* UIColor+Helpers.swift */; };
+		CA418CAE44795383B11D3F002BC6FFC9 /* BetterSegmentedControlSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0A1F6C4EE71A0B2F5B103CF7CC3B4F /* BetterSegmentedControlSegment.swift */; };
+		D06E39632E517CFB8D7E476AB159CD77 /* Pods-MoodNotes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5BCFC757BC3335DFFA0DE521683FAC /* Pods-MoodNotes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1571BEDE32685E5B22F71F1ABE02F2 /* BetterSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 813D2F2BB50DE8CAB2C4B5919DE45949 /* BetterSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFE58C980B925E50CDF098465E7DCE6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		F197D9947F9BC2833C99CD705E6CF151 /* Pods-MoodNotesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4827AB38FB963368D95A07F42DF5CF4A /* Pods-MoodNotesTests-dummy.m */; };
+		F5450A7D2B901241180AA5C3768B5D1F /* BetterSegmentedControl+PredefinedStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE645DB274DCFE8611D6FEA572803D /* BetterSegmentedControl+PredefinedStyles.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AB0C8A5EE2AD5FDB0544B611C9642C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA0A1DD066506A523D6C9452B9CD06B;
+			remoteInfo = BetterSegmentedControl;
+		};
+		E4AF115A7E2D3EF550BD6BBF5F5681A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00157528A0C02012596B895685A4D9A8;
+			remoteInfo = "Pods-MoodNotes";
+		};
+		ED78F4C0130358163DE967AA7E7FE88B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA0A1DD066506A523D6C9452B9CD06B;
+			remoteInfo = BetterSegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0085D531ECF4B75884F6E183075FD78A /* Pods_MoodNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MoodNotes.framework; path = "Pods-MoodNotes.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		065C71EA6152787665117F6D377ED20E /* Pods-MoodNotes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoodNotes-dummy.m"; sourceTree = "<group>"; };
+		0971B0AFD3BCBB672F48342DD0F5E060 /* BetterSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BetterSegmentedControl.framework; path = BetterSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F08534A1D36874C037292CB84B048B /* Pods-MoodNotes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoodNotes.modulemap"; sourceTree = "<group>"; };
+		12AE645DB274DCFE8611D6FEA572803D /* BetterSegmentedControl+PredefinedStyles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BetterSegmentedControl+PredefinedStyles.swift"; path = "Pod/Classes/BetterSegmentedControl+PredefinedStyles.swift"; sourceTree = "<group>"; };
+		17A7846BB90673E0C39CC3BA908738AF /* Pods-MoodNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodNotes.release.xcconfig"; sourceTree = "<group>"; };
+		18A2B5F19B87529CE961C6DCE6657E53 /* Pods-MoodNotes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoodNotes-Info.plist"; sourceTree = "<group>"; };
+		1F3B6228302339C31EDCCAFFFCB18443 /* Pods-MoodNotesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodNotesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		25C95AA79F35350E8F8B4DDE3666C902 /* Pods-MoodNotes-MoodNotesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodNotes-MoodNotesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3146A2FF177EC8A1D818E7D6C329BEEC /* IconSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IconSegment.swift; path = Pod/Classes/Segments/IconSegment.swift; sourceTree = "<group>"; };
+		35B7013BC01004CAE8C827E88375F406 /* BetterSegmentedControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BetterSegmentedControl-Info.plist"; sourceTree = "<group>"; };
+		3B0A1F6C4EE71A0B2F5B103CF7CC3B4F /* BetterSegmentedControlSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BetterSegmentedControlSegment.swift; path = Pod/Classes/Segments/BetterSegmentedControlSegment.swift; sourceTree = "<group>"; };
+		3BC02D8A84C753FFF60C81C239BC6E89 /* Pods-MoodNotes-MoodNotesUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoodNotes-MoodNotesUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3D5D42CA4DD8CEBF6F8E7B44FA071A06 /* BetterSegmentedControl+IndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BetterSegmentedControl+IndicatorView.swift"; path = "Pod/Classes/BetterSegmentedControl+IndicatorView.swift"; sourceTree = "<group>"; };
+		3EE26EB6E20E979D8A663439EFB67C4F /* Pods-MoodNotesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoodNotesTests-umbrella.h"; sourceTree = "<group>"; };
+		40075D1DA0CCF212F9E1FEA46DC142CF /* Pods-MoodNotesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodNotesTests.release.xcconfig"; sourceTree = "<group>"; };
+		410A3AA118D9AC43839D43738C4B3F16 /* Pods-MoodNotesTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoodNotesTests-Info.plist"; sourceTree = "<group>"; };
+		469BB7E5AA6A77499376E8B6FC133DED /* Pods_MoodNotes_MoodNotesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MoodNotes_MoodNotesUITests.framework; path = "Pods-MoodNotes-MoodNotesUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E693DBBE0CC5F7A864F6EA600DE1B1 /* Pods-MoodNotes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoodNotes-frameworks.sh"; sourceTree = "<group>"; };
+		4827AB38FB963368D95A07F42DF5CF4A /* Pods-MoodNotesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoodNotesTests-dummy.m"; sourceTree = "<group>"; };
+		4A5BCFC757BC3335DFFA0DE521683FAC /* Pods-MoodNotes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoodNotes-umbrella.h"; sourceTree = "<group>"; };
+		610B68B63594FEEF56CABADB718D22CD /* Pods_MoodNotesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MoodNotesTests.framework; path = "Pods-MoodNotesTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6489CDB1357075EBD8044D4D9A6E0423 /* BetterSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BetterSegmentedControl.modulemap; sourceTree = "<group>"; };
+		6DA9974B2ED8BD8A15BA815E3788CB3F /* Pods-MoodNotes-MoodNotesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoodNotes-MoodNotesUITests-dummy.m"; sourceTree = "<group>"; };
+		6F655E4F761C5B8F2E3DAA9D13A4EB0B /* BetterSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BetterSegmentedControl.swift; path = Pod/Classes/BetterSegmentedControl.swift; sourceTree = "<group>"; };
+		74CB0F84B4F4B3E9D4FC71FC06FA4815 /* BetterSegmentedControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BetterSegmentedControl.release.xcconfig; sourceTree = "<group>"; };
+		7774962580D8CE50D9D6B6AB5AA539FE /* Pods-MoodNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodNotes.debug.xcconfig"; sourceTree = "<group>"; };
+		813D2F2BB50DE8CAB2C4B5919DE45949 /* BetterSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetterSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		81DC52299F8F08F6BFCDDE1A0A43211C /* BetterSegmentedControl+IBDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BetterSegmentedControl+IBDesignable.swift"; path = "Pod/Classes/BetterSegmentedControl+IBDesignable.swift"; sourceTree = "<group>"; };
+		883230A6481E851EE2D518915A618F75 /* UIColor+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Helpers.swift"; path = "Pod/Classes/Helpers/UIColor+Helpers.swift"; sourceTree = "<group>"; };
+		97C5AEE593FA44B3389780FF3EB8590C /* UIView+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Helpers.swift"; path = "Pod/Classes/Helpers/UIView+Helpers.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD99AB9897A4A1C0BC4F98EA815342F /* BetterSegmentedControl+UIPointerInteractionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BetterSegmentedControl+UIPointerInteractionDelegate.swift"; path = "Pod/Classes/BetterSegmentedControl+UIPointerInteractionDelegate.swift"; sourceTree = "<group>"; };
+		A2CFECB5FD09CFC0F9F00FE185FD2D09 /* LabelSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelSegment.swift; path = Pod/Classes/Segments/LabelSegment.swift; sourceTree = "<group>"; };
+		A52DD7E67C420681D0732BD239F6E296 /* Pods-MoodNotes-MoodNotesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoodNotes-MoodNotesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB21A95A1DDF513C152B31AC5F0277FF /* Pods-MoodNotesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoodNotesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B89A5D0756D705FF076B5A7FFA85BB3B /* BetterSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BetterSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		BF45B993488FB177613812CCC2DE09BB /* Pods-MoodNotes-MoodNotesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoodNotes-MoodNotesUITests-umbrella.h"; sourceTree = "<group>"; };
+		C538A437232463ED845CD11582AC2CA3 /* BetterSegmentedControl+Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BetterSegmentedControl+Options.swift"; path = "Pod/Classes/BetterSegmentedControl+Options.swift"; sourceTree = "<group>"; };
+		C55AEB6D679742732588272585E7C7D9 /* Pods-MoodNotes-MoodNotesUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoodNotes-MoodNotesUITests-Info.plist"; sourceTree = "<group>"; };
+		CE29DB50AE3DFDBBE0818975E13A7B35 /* Pods-MoodNotesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoodNotesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1BDE7AEF50C945DFDE1301B8EC62E5A /* Pods-MoodNotes-MoodNotesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodNotes-MoodNotesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D874653A61DC6C41195E922D5582914D /* Pods-MoodNotes-MoodNotesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoodNotes-MoodNotesUITests.modulemap"; sourceTree = "<group>"; };
+		E2BA1DD3B1E7A3D3BCFAB1CB0157B327 /* BetterSegmentedControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BetterSegmentedControl.debug.xcconfig; sourceTree = "<group>"; };
+		E3F84E36FA13F6C539C4DC47ACDB58D4 /* Pods-MoodNotes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoodNotes-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EF428E720B5BFE5E34DBD91D69CE9E60 /* Pods-MoodNotes-MoodNotesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoodNotes-MoodNotesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F071FBBD8C0DD527B7F7AB850112D04E /* BetterSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetterSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		F715E67B0CD4B63F0963C6B42661D23E /* Pods-MoodNotesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoodNotesTests.modulemap"; sourceTree = "<group>"; };
+		FAC024587AB4036C428C2085B808E9EF /* Pods-MoodNotes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoodNotes-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		089DA235F3477981FACBC75D3D716510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC95D61A2816D757C4E9AB90C243F05D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E84A8F2DFF12617F56A4DD49EEDFCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF3054A4868B3161B3DBB9FE58EEAA4 /* Foundation.framework in Frameworks */,
+				EFE58C980B925E50CDF098465E7DCE6E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509E8475E3EF561020CC3F139BC5DC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28805E1F58DEF8ABAD50DD87BFE9072E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E521C5D0988F3FD630B96AE7A974415D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A64BD38A2E284BCF9E3737CB0175BE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2985CCD3FA3D6048612EAB11034DB11F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D194686AFEB8BCB9AE4E0757FEA9DBAD /* BetterSegmentedControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2FA0E240171CCDCDD77B8A5DCA10F150 /* Pods-MoodNotes-MoodNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D874653A61DC6C41195E922D5582914D /* Pods-MoodNotes-MoodNotesUITests.modulemap */,
+				EF428E720B5BFE5E34DBD91D69CE9E60 /* Pods-MoodNotes-MoodNotesUITests-acknowledgements.markdown */,
+				A52DD7E67C420681D0732BD239F6E296 /* Pods-MoodNotes-MoodNotesUITests-acknowledgements.plist */,
+				6DA9974B2ED8BD8A15BA815E3788CB3F /* Pods-MoodNotes-MoodNotesUITests-dummy.m */,
+				3BC02D8A84C753FFF60C81C239BC6E89 /* Pods-MoodNotes-MoodNotesUITests-frameworks.sh */,
+				C55AEB6D679742732588272585E7C7D9 /* Pods-MoodNotes-MoodNotesUITests-Info.plist */,
+				BF45B993488FB177613812CCC2DE09BB /* Pods-MoodNotes-MoodNotesUITests-umbrella.h */,
+				25C95AA79F35350E8F8B4DDE3666C902 /* Pods-MoodNotes-MoodNotesUITests.debug.xcconfig */,
+				D1BDE7AEF50C945DFDE1301B8EC62E5A /* Pods-MoodNotes-MoodNotesUITests.release.xcconfig */,
+			);
+			name = "Pods-MoodNotes-MoodNotesUITests";
+			path = "Target Support Files/Pods-MoodNotes-MoodNotesUITests";
+			sourceTree = "<group>";
+		};
+		3E792D23719A5E93CEBA9ECB4AAC9CAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0971B0AFD3BCBB672F48342DD0F5E060 /* BetterSegmentedControl.framework */,
+				0085D531ECF4B75884F6E183075FD78A /* Pods_MoodNotes.framework */,
+				469BB7E5AA6A77499376E8B6FC133DED /* Pods_MoodNotes_MoodNotesUITests.framework */,
+				610B68B63594FEEF56CABADB718D22CD /* Pods_MoodNotesTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DFBDF214C7B276A71E28019B2D27F9C /* Pods-MoodNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F715E67B0CD4B63F0963C6B42661D23E /* Pods-MoodNotesTests.modulemap */,
+				AB21A95A1DDF513C152B31AC5F0277FF /* Pods-MoodNotesTests-acknowledgements.markdown */,
+				CE29DB50AE3DFDBBE0818975E13A7B35 /* Pods-MoodNotesTests-acknowledgements.plist */,
+				4827AB38FB963368D95A07F42DF5CF4A /* Pods-MoodNotesTests-dummy.m */,
+				410A3AA118D9AC43839D43738C4B3F16 /* Pods-MoodNotesTests-Info.plist */,
+				3EE26EB6E20E979D8A663439EFB67C4F /* Pods-MoodNotesTests-umbrella.h */,
+				1F3B6228302339C31EDCCAFFFCB18443 /* Pods-MoodNotesTests.debug.xcconfig */,
+				40075D1DA0CCF212F9E1FEA46DC142CF /* Pods-MoodNotesTests.release.xcconfig */,
+			);
+			name = "Pods-MoodNotesTests";
+			path = "Target Support Files/Pods-MoodNotesTests";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		72D8ECEBEB32F10B7D3684D7CC1AED67 /* Pods-MoodNotes */ = {
+			isa = PBXGroup;
+			children = (
+				11F08534A1D36874C037292CB84B048B /* Pods-MoodNotes.modulemap */,
+				FAC024587AB4036C428C2085B808E9EF /* Pods-MoodNotes-acknowledgements.markdown */,
+				E3F84E36FA13F6C539C4DC47ACDB58D4 /* Pods-MoodNotes-acknowledgements.plist */,
+				065C71EA6152787665117F6D377ED20E /* Pods-MoodNotes-dummy.m */,
+				47E693DBBE0CC5F7A864F6EA600DE1B1 /* Pods-MoodNotes-frameworks.sh */,
+				18A2B5F19B87529CE961C6DCE6657E53 /* Pods-MoodNotes-Info.plist */,
+				4A5BCFC757BC3335DFFA0DE521683FAC /* Pods-MoodNotes-umbrella.h */,
+				7774962580D8CE50D9D6B6AB5AA539FE /* Pods-MoodNotes.debug.xcconfig */,
+				17A7846BB90673E0C39CC3BA908738AF /* Pods-MoodNotes.release.xcconfig */,
+			);
+			name = "Pods-MoodNotes";
+			path = "Target Support Files/Pods-MoodNotes";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				2985CCD3FA3D6048612EAB11034DB11F /* Pods */,
+				3E792D23719A5E93CEBA9ECB4AAC9CAB /* Products */,
+				D677C1322095F239AE3606F47A98EB8D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D194686AFEB8BCB9AE4E0757FEA9DBAD /* BetterSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				6F655E4F761C5B8F2E3DAA9D13A4EB0B /* BetterSegmentedControl.swift */,
+				81DC52299F8F08F6BFCDDE1A0A43211C /* BetterSegmentedControl+IBDesignable.swift */,
+				3D5D42CA4DD8CEBF6F8E7B44FA071A06 /* BetterSegmentedControl+IndicatorView.swift */,
+				C538A437232463ED845CD11582AC2CA3 /* BetterSegmentedControl+Options.swift */,
+				12AE645DB274DCFE8611D6FEA572803D /* BetterSegmentedControl+PredefinedStyles.swift */,
+				9DD99AB9897A4A1C0BC4F98EA815342F /* BetterSegmentedControl+UIPointerInteractionDelegate.swift */,
+				3B0A1F6C4EE71A0B2F5B103CF7CC3B4F /* BetterSegmentedControlSegment.swift */,
+				3146A2FF177EC8A1D818E7D6C329BEEC /* IconSegment.swift */,
+				A2CFECB5FD09CFC0F9F00FE185FD2D09 /* LabelSegment.swift */,
+				883230A6481E851EE2D518915A618F75 /* UIColor+Helpers.swift */,
+				97C5AEE593FA44B3389780FF3EB8590C /* UIView+Helpers.swift */,
+				F2D724514117ED7348820F581D3D6394 /* Support Files */,
+			);
+			name = BetterSegmentedControl;
+			path = BetterSegmentedControl;
+			sourceTree = "<group>";
+		};
+		D677C1322095F239AE3606F47A98EB8D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72D8ECEBEB32F10B7D3684D7CC1AED67 /* Pods-MoodNotes */,
+				2FA0E240171CCDCDD77B8A5DCA10F150 /* Pods-MoodNotes-MoodNotesUITests */,
+				4DFBDF214C7B276A71E28019B2D27F9C /* Pods-MoodNotesTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F2D724514117ED7348820F581D3D6394 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6489CDB1357075EBD8044D4D9A6E0423 /* BetterSegmentedControl.modulemap */,
+				B89A5D0756D705FF076B5A7FFA85BB3B /* BetterSegmentedControl-dummy.m */,
+				35B7013BC01004CAE8C827E88375F406 /* BetterSegmentedControl-Info.plist */,
+				F071FBBD8C0DD527B7F7AB850112D04E /* BetterSegmentedControl-prefix.pch */,
+				813D2F2BB50DE8CAB2C4B5919DE45949 /* BetterSegmentedControl-umbrella.h */,
+				E2BA1DD3B1E7A3D3BCFAB1CB0157B327 /* BetterSegmentedControl.debug.xcconfig */,
+				74CB0F84B4F4B3E9D4FC71FC06FA4815 /* BetterSegmentedControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BetterSegmentedControl";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FBC02EEC2AC73A2ADC60F0371AB2CBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777FB42717683D06BB6F3C5417498F76 /* Pods-MoodNotes-MoodNotesUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15226326882684083A337B544B6C93CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1571BEDE32685E5B22F71F1ABE02F2 /* BetterSegmentedControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B0E3A65B9A51DECA53FA6D74474441 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06E39632E517CFB8D7E476AB159CD77 /* Pods-MoodNotes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29DF2EC219E8F66DF472562F43D206E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84B6BFCE5465C7F0D70CAB2EB9772FE /* Pods-MoodNotesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00157528A0C02012596B895685A4D9A8 /* Pods-MoodNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433CA1D721C9F16117001024E5D79706 /* Build configuration list for PBXNativeTarget "Pods-MoodNotes" */;
+			buildPhases = (
+				C3B0E3A65B9A51DECA53FA6D74474441 /* Headers */,
+				5898BDD86DDD8BC6F8F9D453F831E134 /* Sources */,
+				089DA235F3477981FACBC75D3D716510 /* Frameworks */,
+				03DBE659010D5F101A9BCC4F4C6CED00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A8CD9780CA5F5369963A5492BD3CA9 /* PBXTargetDependency */,
+			);
+			name = "Pods-MoodNotes";
+			productName = "Pods-MoodNotes";
+			productReference = 0085D531ECF4B75884F6E183075FD78A /* Pods_MoodNotes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C4F84AEA9913E04558C647439F291B4 /* Pods-MoodNotes-MoodNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C65BA4627D8E1D4E1A70F45C1AC9302 /* Build configuration list for PBXNativeTarget "Pods-MoodNotes-MoodNotesUITests" */;
+			buildPhases = (
+				0FBC02EEC2AC73A2ADC60F0371AB2CBC /* Headers */,
+				F6D3AEF523FF306E13FD1C967DAF3593 /* Sources */,
+				509E8475E3EF561020CC3F139BC5DC3E /* Frameworks */,
+				15753DA0EB09E8D35F5069BED5CC6957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E60B813331228D48F262A8EB42DA4ECD /* PBXTargetDependency */,
+			);
+			name = "Pods-MoodNotes-MoodNotesUITests";
+			productName = "Pods-MoodNotes-MoodNotesUITests";
+			productReference = 469BB7E5AA6A77499376E8B6FC133DED /* Pods_MoodNotes_MoodNotesUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B25BF54D5F41F83DFDFAB545B8825CC /* Pods-MoodNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6243834D6ABC54C01C1A0253F398B85B /* Build configuration list for PBXNativeTarget "Pods-MoodNotesTests" */;
+			buildPhases = (
+				E29DF2EC219E8F66DF472562F43D206E /* Headers */,
+				0F5FEDEAFC7364DCB27FA16FAB126780 /* Sources */,
+				E521C5D0988F3FD630B96AE7A974415D /* Frameworks */,
+				65DE7E84EDBDD9D785CAE704727B8E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AED355FB78956951E22CA5AEFD05BD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-MoodNotesTests";
+			productName = "Pods-MoodNotesTests";
+			productReference = 610B68B63594FEEF56CABADB718D22CD /* Pods_MoodNotesTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFA0A1DD066506A523D6C9452B9CD06B /* BetterSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AB7142C7889DB464E8A68B6C3990E2 /* Build configuration list for PBXNativeTarget "BetterSegmentedControl" */;
+			buildPhases = (
+				15226326882684083A337B544B6C93CA /* Headers */,
+				DA9FFDB2C4595D32AB3FBFE25FAFC77C /* Sources */,
+				38E84A8F2DFF12617F56A4DD49EEDFCE /* Frameworks */,
+				D8551DE1F63560DADB9DB48CC5028E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterSegmentedControl;
+			productName = BetterSegmentedControl;
+			productReference = 0971B0AFD3BCBB672F48342DD0F5E060 /* BetterSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3E792D23719A5E93CEBA9ECB4AAC9CAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA0A1DD066506A523D6C9452B9CD06B /* BetterSegmentedControl */,
+				00157528A0C02012596B895685A4D9A8 /* Pods-MoodNotes */,
+				5C4F84AEA9913E04558C647439F291B4 /* Pods-MoodNotes-MoodNotesUITests */,
+				9B25BF54D5F41F83DFDFAB545B8825CC /* Pods-MoodNotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03DBE659010D5F101A9BCC4F4C6CED00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15753DA0EB09E8D35F5069BED5CC6957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DE7E84EDBDD9D785CAE704727B8E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8551DE1F63560DADB9DB48CC5028E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F5FEDEAFC7364DCB27FA16FAB126780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F197D9947F9BC2833C99CD705E6CF151 /* Pods-MoodNotesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5898BDD86DDD8BC6F8F9D453F831E134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847173EF9130787F1D213DF1BC2B4828 /* Pods-MoodNotes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9FFDB2C4595D32AB3FBFE25FAFC77C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A43C8C2D3011AAC543038A3C57927A3 /* BetterSegmentedControl+IBDesignable.swift in Sources */,
+				0AC3A362AC3E567A4D1D56AEE46CB12F /* BetterSegmentedControl+IndicatorView.swift in Sources */,
+				07B8968BD31271E7FC18D85921C2AC0F /* BetterSegmentedControl+Options.swift in Sources */,
+				F5450A7D2B901241180AA5C3768B5D1F /* BetterSegmentedControl+PredefinedStyles.swift in Sources */,
+				2AA8A25AD6181EC55EFEB2243CDC2C17 /* BetterSegmentedControl+UIPointerInteractionDelegate.swift in Sources */,
+				71EA36AE6524B7BBEDE1BDB7BE3B021B /* BetterSegmentedControl-dummy.m in Sources */,
+				6997891C4061A45CA95B6E960D31C491 /* BetterSegmentedControl.swift in Sources */,
+				CA418CAE44795383B11D3F002BC6FFC9 /* BetterSegmentedControlSegment.swift in Sources */,
+				A268632B3937A44826947456601E32BB /* IconSegment.swift in Sources */,
+				566E310657BDE3DC19F32D814E89F007 /* LabelSegment.swift in Sources */,
+				C7DEFB89A1384CACED536E39301F77E4 /* UIColor+Helpers.swift in Sources */,
+				649FF14F1BEDBCD9190ABFA52A2B5093 /* UIView+Helpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D3AEF523FF306E13FD1C967DAF3593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4329742D5D8045FC99A4F2CF8A0CBEFF /* Pods-MoodNotes-MoodNotesUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09A8CD9780CA5F5369963A5492BD3CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BetterSegmentedControl;
+			target = FFA0A1DD066506A523D6C9452B9CD06B /* BetterSegmentedControl */;
+			targetProxy = ED78F4C0130358163DE967AA7E7FE88B /* PBXContainerItemProxy */;
+		};
+		1AED355FB78956951E22CA5AEFD05BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MoodNotes";
+			target = 00157528A0C02012596B895685A4D9A8 /* Pods-MoodNotes */;
+			targetProxy = E4AF115A7E2D3EF550BD6BBF5F5681A6 /* PBXContainerItemProxy */;
+		};
+		E60B813331228D48F262A8EB42DA4ECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BetterSegmentedControl;
+			target = FFA0A1DD066506A523D6C9452B9CD06B /* BetterSegmentedControl */;
+			targetProxy = 3AB0C8A5EE2AD5FDB0544B611C9642C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05355D0AB41196C4CC454F1B38BE84AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40075D1DA0CCF212F9E1FEA46DC142CF /* Pods-MoodNotesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoodNotesTests/Pods-MoodNotesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoodNotesTests/Pods-MoodNotesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1DDC5836326F5E4829662BA6625766D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BDE7AEF50C945DFDE1301B8EC62E5A /* Pods-MoodNotes-MoodNotesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoodNotes-MoodNotesUITests/Pods-MoodNotes-MoodNotesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoodNotes-MoodNotesUITests/Pods-MoodNotes-MoodNotesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F5F53A59D619F063B7D9BF29A940B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A7846BB90673E0C39CC3BA908738AF /* Pods-MoodNotes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoodNotes/Pods-MoodNotes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoodNotes/Pods-MoodNotes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79BD012E26E13535B64706BD8DA4D67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7774962580D8CE50D9D6B6AB5AA539FE /* Pods-MoodNotes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoodNotes/Pods-MoodNotes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoodNotes/Pods-MoodNotes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8EA9EA5E1B16C3EDD75C7E77E2C17257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C95AA79F35350E8F8B4DDE3666C902 /* Pods-MoodNotes-MoodNotesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoodNotes-MoodNotesUITests/Pods-MoodNotes-MoodNotesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoodNotes-MoodNotesUITests/Pods-MoodNotes-MoodNotesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		963E1FDC4A0E550341A5E87ACE0B2EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3B6228302339C31EDCCAFFFCB18443 /* Pods-MoodNotesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoodNotesTests/Pods-MoodNotesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoodNotesTests/Pods-MoodNotesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CAF069CE43935BB11201FF0022FBAC97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2BA1DD3B1E7A3D3BCFAB1CB0157B327 /* BetterSegmentedControl.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BetterSegmentedControl/BetterSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BetterSegmentedControl/BetterSegmentedControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BetterSegmentedControl/BetterSegmentedControl.modulemap";
+				PRODUCT_MODULE_NAME = BetterSegmentedControl;
+				PRODUCT_NAME = BetterSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFFBB83AC4AD93D2D2F30ADF073E529C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74CB0F84B4F4B3E9D4FC71FC06FA4815 /* BetterSegmentedControl.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BetterSegmentedControl/BetterSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BetterSegmentedControl/BetterSegmentedControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BetterSegmentedControl/BetterSegmentedControl.modulemap";
+				PRODUCT_MODULE_NAME = BetterSegmentedControl;
+				PRODUCT_NAME = BetterSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C65BA4627D8E1D4E1A70F45C1AC9302 /* Build configuration list for PBXNativeTarget "Pods-MoodNotes-MoodNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA9EA5E1B16C3EDD75C7E77E2C17257 /* Debug */,
+				1DDC5836326F5E4829662BA6625766D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433CA1D721C9F16117001024E5D79706 /* Build configuration list for PBXNativeTarget "Pods-MoodNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BD012E26E13535B64706BD8DA4D67E /* Debug */,
+				1F5F53A59D619F063B7D9BF29A940B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6243834D6ABC54C01C1A0253F398B85B /* Build configuration list for PBXNativeTarget "Pods-MoodNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963E1FDC4A0E550341A5E87ACE0B2EF9 /* Debug */,
+				05355D0AB41196C4CC454F1B38BE84AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AB7142C7889DB464E8A68B6C3990E2 /* Build configuration list for PBXNativeTarget "BetterSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF069CE43935BB11201FF0022FBAC97 /* Debug */,
+				EFFBB83AC4AD93D2D2F30ADF073E529C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

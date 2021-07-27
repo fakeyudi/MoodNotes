@@ -1,0 +1,6 @@
+framework module Pods_MoodNotes {
+  umbrella header "Pods-MoodNotes-umbrella.h"
+
+  export *
+  module * { export * }
+}

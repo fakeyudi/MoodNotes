@@ -3,10 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30B17D5B77FBCC1110EE358E /* Pods_MoodNotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7055305AEA0AD590827E0D /* Pods_MoodNotes.framework */; };
+		7E94C1D97DC727D92FC4902B /* Pods_MoodNotesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651E804C57D8D232EF638E1A /* Pods_MoodNotesTests.framework */; };
+		AF30318C26AFFD93008FA2FD /* NotesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30318B26AFFD93008FA2FD /* NotesCollectionViewCell.swift */; };
+		AF30319726B04EB7008FA2FD /* MoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30319626B04EB7008FA2FD /* MoodViewController.swift */; };
+		AF30319826B052C0008FA2FD /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30318E26B04EA1008FA2FD /* CustomSlider.swift */; };
+		AF30319926B052C3008FA2FD /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30319426B04EA1008FA2FD /* BackgroundView.swift */; };
+		AF30319A26B052C3008FA2FD /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30318F26B04EA1008FA2FD /* TitleView.swift */; };
+		AF30319B26B052C3008FA2FD /* MouthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30319526B04EA1008FA2FD /* MouthView.swift */; };
+		AF30319C26B052C3008FA2FD /* ShakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30319026B04EA1008FA2FD /* ShakeView.swift */; };
+		AF30319D26B052C3008FA2FD /* GeometryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30319226B04EA1008FA2FD /* GeometryHelper.swift */; };
+		AF30319E26B052C3008FA2FD /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30319126B04EA1008FA2FD /* EyeView.swift */; };
+		AF30319F26B052C3008FA2FD /* ProgressableAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30319326B04EA1008FA2FD /* ProgressableAnimationView.swift */; };
+		AF3031A126B06BC3008FA2FD /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3031A026B06BC3008FA2FD /* Protocols.swift */; };
 		AFE48FF726AE88FC001405CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE48FF626AE88FC001405CD /* AppDelegate.swift */; };
 		AFE48FF926AE88FC001405CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE48FF826AE88FC001405CD /* SceneDelegate.swift */; };
 		AFE48FFE26AE88FC001405CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE48FFC26AE88FC001405CD /* Main.storyboard */; };
@@ -32,6 +45,7 @@
 		AFE4904C26AEE7FF001405CD /* CircularStd-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE4903926AEDAFC001405CD /* CircularStd-MediumItalic.ttf */; };
 		AFE4904D26AEE7FF001405CD /* CircularStd-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE4903A26AEDAFC001405CD /* CircularStd-BlackItalic.ttf */; };
 		AFE4904E26AEE7FF001405CD /* CircularStd-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE4903B26AEDAFC001405CD /* CircularStd-Book.ttf */; };
+		D2C8DDAB3BF2DB500CC99AB5 /* Pods_MoodNotes_MoodNotesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF90CE40F79CE610486FA1A /* Pods_MoodNotes_MoodNotesUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +66,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EF90CE40F79CE610486FA1A /* Pods_MoodNotes_MoodNotesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodNotes_MoodNotesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		127A93EE57BB342971BDD587 /* Pods-MoodNotesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodNotesTests.debug.xcconfig"; path = "Target Support Files/Pods-MoodNotesTests/Pods-MoodNotesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		376CA2BEE4236B4E5E8E8115 /* Pods-MoodNotes-MoodNotesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodNotes-MoodNotesUITests.debug.xcconfig"; path = "Target Support Files/Pods-MoodNotes-MoodNotesUITests/Pods-MoodNotes-MoodNotesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		53A673E73E3624F8C4B3EEB3 /* Pods-MoodNotesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodNotesTests.release.xcconfig"; path = "Target Support Files/Pods-MoodNotesTests/Pods-MoodNotesTests.release.xcconfig"; sourceTree = "<group>"; };
+		5CA7C3ADAEC4AE34CA4F6530 /* Pods-MoodNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodNotes.debug.xcconfig"; path = "Target Support Files/Pods-MoodNotes/Pods-MoodNotes.debug.xcconfig"; sourceTree = "<group>"; };
+		651E804C57D8D232EF638E1A /* Pods_MoodNotesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodNotesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		758440BF3F3B7E94BFAEE4CE /* Pods-MoodNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodNotes.release.xcconfig"; path = "Target Support Files/Pods-MoodNotes/Pods-MoodNotes.release.xcconfig"; sourceTree = "<group>"; };
+		9F7055305AEA0AD590827E0D /* Pods_MoodNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF30318B26AFFD93008FA2FD /* NotesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF30318E26B04EA1008FA2FD /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		AF30318F26B04EA1008FA2FD /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		AF30319026B04EA1008FA2FD /* ShakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeView.swift; sourceTree = "<group>"; };
+		AF30319126B04EA1008FA2FD /* EyeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
+		AF30319226B04EA1008FA2FD /* GeometryHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryHelper.swift; sourceTree = "<group>"; };
+		AF30319326B04EA1008FA2FD /* ProgressableAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressableAnimationView.swift; sourceTree = "<group>"; };
+		AF30319426B04EA1008FA2FD /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		AF30319526B04EA1008FA2FD /* MouthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouthView.swift; sourceTree = "<group>"; };
+		AF30319626B04EB7008FA2FD /* MoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodViewController.swift; sourceTree = "<group>"; };
+		AF3031A026B06BC3008FA2FD /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		AFE48FF326AE88FC001405CD /* MoodNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE48FF626AE88FC001405CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFE48FF826AE88FC001405CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +116,7 @@
 		AFE4904026AEE23A001405CD /* TextViewPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewPlaceholder.swift; sourceTree = "<group>"; };
 		AFE4904326AEE3B1001405CD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AFE4904526AEE3D4001405CD /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		FDB9DBC437ECF309E44D7E61 /* Pods-MoodNotes-MoodNotesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodNotes-MoodNotesUITests.release.xcconfig"; path = "Target Support Files/Pods-MoodNotes-MoodNotesUITests/Pods-MoodNotes-MoodNotesUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B17D5B77FBCC1110EE358E /* Pods_MoodNotes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E94C1D97DC727D92FC4902B /* Pods_MoodNotesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,12 +140,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C8DDAB3BF2DB500CC99AB5 /* Pods_MoodNotes_MoodNotesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62C2EE96A7366FEF7E6C6B72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CA7C3ADAEC4AE34CA4F6530 /* Pods-MoodNotes.debug.xcconfig */,
+				758440BF3F3B7E94BFAEE4CE /* Pods-MoodNotes.release.xcconfig */,
+				376CA2BEE4236B4E5E8E8115 /* Pods-MoodNotes-MoodNotesUITests.debug.xcconfig */,
+				FDB9DBC437ECF309E44D7E61 /* Pods-MoodNotes-MoodNotesUITests.release.xcconfig */,
+				127A93EE57BB342971BDD587 /* Pods-MoodNotesTests.debug.xcconfig */,
+				53A673E73E3624F8C4B3EEB3 /* Pods-MoodNotesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF30318A26AFFD7B008FA2FD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AF30318B26AFFD93008FA2FD /* NotesCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AF30318D26B04EA1008FA2FD /* MoodSettingHelper */ = {
+			isa = PBXGroup;
+			children = (
+				AF30318E26B04EA1008FA2FD /* CustomSlider.swift */,
+				AF30318F26B04EA1008FA2FD /* TitleView.swift */,
+				AF30319026B04EA1008FA2FD /* ShakeView.swift */,
+				AF30319126B04EA1008FA2FD /* EyeView.swift */,
+				AF30319226B04EA1008FA2FD /* GeometryHelper.swift */,
+				AF30319326B04EA1008FA2FD /* ProgressableAnimationView.swift */,
+				AF30319426B04EA1008FA2FD /* BackgroundView.swift */,
+				AF30319526B04EA1008FA2FD /* MouthView.swift */,
+			);
+			path = MoodSettingHelper;
+			sourceTree = "<group>";
+		};
 		AFE48FEA26AE88FC001405CD = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +190,8 @@
 				AFE4900F26AE88FE001405CD /* MoodNotesTests */,
 				AFE4901A26AE88FE001405CD /* MoodNotesUITests */,
 				AFE48FF426AE88FC001405CD /* Products */,
+				62C2EE96A7366FEF7E6C6B72 /* Pods */,
+				C4B1853D420187F70595FA1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,14 +208,16 @@
 		AFE48FF526AE88FC001405CD /* MoodNotes */ = {
 			isa = PBXGroup;
 			children = (
-				AFE4904226AEE38E001405CD /* Controller */,
+				AF30318A26AFFD7B008FA2FD /* Cells */,
 				AFE4903026AE945D001405CD /* Utils */,
+				AFE4904226AEE38E001405CD /* Controller */,
 				AFE48FF626AE88FC001405CD /* AppDelegate.swift */,
 				AFE48FF826AE88FC001405CD /* SceneDelegate.swift */,
 				AFE48FFC26AE88FC001405CD /* Main.storyboard */,
 				AFE4900226AE88FE001405CD /* Assets.xcassets */,
 				AFE4900426AE88FE001405CD /* LaunchScreen.storyboard */,
 				AFE4900726AE88FE001405CD /* Info.plist */,
+				AF30318D26B04EA1008FA2FD /* MoodSettingHelper */,
 				AFE4903726AEDAFC001405CD /* C std */,
 				AFE4902D26AE89B3001405CD /* CoreData */,
 			);
@@ -180,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				AFE4903126AE946E001405CD /* Enums.swift */,
+				AF3031A026B06BC3008FA2FD /* Protocols.swift */,
 				AFE4904026AEE23A001405CD /* TextViewPlaceholder.swift */,
 				AFE4903326AE9585001405CD /* Extensions.swift */,
 				AFE4903526AE958E001405CD /* Constants.swift */,
@@ -206,9 +284,20 @@
 			isa = PBXGroup;
 			children = (
 				AFE4904326AEE3B1001405CD /* HomeViewController.swift */,
+				AF30319626B04EB7008FA2FD /* MoodViewController.swift */,
 				AFE4904526AEE3D4001405CD /* NoteViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		C4B1853D420187F70595FA1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F7055305AEA0AD590827E0D /* Pods_MoodNotes.framework */,
+				0EF90CE40F79CE610486FA1A /* Pods_MoodNotes_MoodNotesUITests.framework */,
+				651E804C57D8D232EF638E1A /* Pods_MoodNotesTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,9 +307,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFE4902026AE88FE001405CD /* Build configuration list for PBXNativeTarget "MoodNotes" */;
 			buildPhases = (
+				47D8E162F3055F701B47AFE0 /* [CP] Check Pods Manifest.lock */,
 				AFE48FEF26AE88FC001405CD /* Sources */,
 				AFE48FF026AE88FC001405CD /* Frameworks */,
 				AFE48FF126AE88FC001405CD /* Resources */,
+				9EB0F08DDA31327C04083B04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +326,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFE4902326AE88FE001405CD /* Build configuration list for PBXNativeTarget "MoodNotesTests" */;
 			buildPhases = (
+				8A78659C7FB337CB6B054316 /* [CP] Check Pods Manifest.lock */,
 				AFE4900826AE88FE001405CD /* Sources */,
 				AFE4900926AE88FE001405CD /* Frameworks */,
 				AFE4900A26AE88FE001405CD /* Resources */,
@@ -253,9 +345,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFE4902626AE88FE001405CD /* Build configuration list for PBXNativeTarget "MoodNotesUITests" */;
 			buildPhases = (
+				B8CC515CA1C871A50C7DF3F9 /* [CP] Check Pods Manifest.lock */,
 				AFE4901326AE88FE001405CD /* Sources */,
 				AFE4901426AE88FE001405CD /* Frameworks */,
 				AFE4901526AE88FE001405CD /* Resources */,
+				6B02643DBF4BE49316805B49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -344,19 +438,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47D8E162F3055F701B47AFE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoodNotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B02643DBF4BE49316805B49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoodNotes-MoodNotesUITests/Pods-MoodNotes-MoodNotesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoodNotes-MoodNotesUITests/Pods-MoodNotes-MoodNotesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoodNotes-MoodNotesUITests/Pods-MoodNotes-MoodNotesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A78659C7FB337CB6B054316 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoodNotesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB0F08DDA31327C04083B04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoodNotes/Pods-MoodNotes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoodNotes/Pods-MoodNotes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoodNotes/Pods-MoodNotes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8CC515CA1C871A50C7DF3F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoodNotes-MoodNotesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AFE48FEF26AE88FC001405CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF30319F26B052C3008FA2FD /* ProgressableAnimationView.swift in Sources */,
 				AFE4904126AEE23A001405CD /* TextViewPlaceholder.swift in Sources */,
+				AF30319826B052C0008FA2FD /* CustomSlider.swift in Sources */,
 				AFE4902F26AE89EF001405CD /* NoteHandler.swift in Sources */,
 				AFE4903426AE9585001405CD /* Extensions.swift in Sources */,
+				AF30319726B04EB7008FA2FD /* MoodViewController.swift in Sources */,
 				AFE48FF726AE88FC001405CD /* AppDelegate.swift in Sources */,
 				AFE4904626AEE3D4001405CD /* NoteViewController.swift in Sources */,
+				AF30319E26B052C3008FA2FD /* EyeView.swift in Sources */,
 				AFE4902B26AE8995001405CD /* Note+CoreDataClass.swift in Sources */,
+				AF30319B26B052C3008FA2FD /* MouthView.swift in Sources */,
+				AF30318C26AFFD93008FA2FD /* NotesCollectionViewCell.swift in Sources */,
 				AFE4903626AE958E001405CD /* Constants.swift in Sources */,
+				AF30319926B052C3008FA2FD /* BackgroundView.swift in Sources */,
+				AF30319C26B052C3008FA2FD /* ShakeView.swift in Sources */,
 				AFE4900126AE88FC001405CD /* MoodNotes.xcdatamodeld in Sources */,
+				AF30319A26B052C3008FA2FD /* TitleView.swift in Sources */,
+				AF30319D26B052C3008FA2FD /* GeometryHelper.swift in Sources */,
+				AF3031A126B06BC3008FA2FD /* Protocols.swift in Sources */,
 				AFE4904426AEE3B1001405CD /* HomeViewController.swift in Sources */,
 				AFE48FF926AE88FC001405CD /* SceneDelegate.swift in Sources */,
 				AFE4903226AE946E001405CD /* Enums.swift in Sources */,
@@ -533,6 +741,7 @@
 		};
 		AFE4902126AE88FE001405CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA7C3ADAEC4AE34CA4F6530 /* Pods-MoodNotes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -552,6 +761,7 @@
 		};
 		AFE4902226AE88FE001405CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758440BF3F3B7E94BFAEE4CE /* Pods-MoodNotes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -571,6 +781,7 @@
 		};
 		AFE4902426AE88FE001405CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127A93EE57BB342971BDD587 /* Pods-MoodNotesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -593,6 +804,7 @@
 		};
 		AFE4902526AE88FE001405CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A673E73E3624F8C4B3EEB3 /* Pods-MoodNotesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -615,6 +827,7 @@
 		};
 		AFE4902726AE88FE001405CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376CA2BEE4236B4E5E8E8115 /* Pods-MoodNotes-MoodNotesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -635,6 +848,7 @@
 		};
 		AFE4902826AE88FE001405CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB9DBC437ECF309E44D7E61 /* Pods-MoodNotes-MoodNotesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

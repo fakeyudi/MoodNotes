@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9576BBD4-5D2F-4159-94E8-D6C376764E4F"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "839F89D1-8C3D-4669-98AC-ECFD10DD7CEB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoodNotes/Controller/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "filteredNotes"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "839F89D1-8C3D-4669-98AC-ECFD10DD7CEB - a90ea494938e8a76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoodNotes.HomeViewController.filteredNotes.getter : Swift.Array&lt;MoodNotes.Note&gt;"
+                  moduleName = "MoodNotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anuragdixit/Desktop/Development/MoodNotes/MoodNotes/MoodNotes/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "839F89D1-8C3D-4669-98AC-ECFD10DD7CEB - 38d52fa92a722e62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoodNotes.HomeViewController.filteredNotes.setter : Swift.Array&lt;MoodNotes.Note&gt;"
+                  moduleName = "MoodNotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anuragdixit/Desktop/Development/MoodNotes/MoodNotes/MoodNotes/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "839F89D1-8C3D-4669-98AC-ECFD10DD7CEB - 100aae07c4ea291"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoodNotes.HomeViewController.filteredNotes.modify : Swift.Array&lt;MoodNotes.Note&gt;"
+                  moduleName = "MoodNotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anuragdixit/Desktop/Development/MoodNotes/MoodNotes/MoodNotes/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "839F89D1-8C3D-4669-98AC-ECFD10DD7CEB - ec270a932ce20fb1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoodNotes.HomeViewController.filteredNotes.modify : Swift.Array&lt;MoodNotes.Note&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MoodNotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anuragdixit/Desktop/Development/MoodNotes/MoodNotes/MoodNotes/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "839F89D1-8C3D-4669-98AC-ECFD10DD7CEB - 8bea6fb64dc8da47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoodNotes.HomeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MoodNotes.HomeViewController"
+                  moduleName = "MoodNotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anuragdixit/Desktop/Development/MoodNotes/MoodNotes/MoodNotes/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1340">
+               </Location>
+               <Location
+                  uuid = "839F89D1-8C3D-4669-98AC-ECFD10DD7CEB - af723cc75bba184c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoodNotes.HomeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MoodNotes.HomeViewController&gt;"
+                  moduleName = "MoodNotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anuragdixit/Desktop/Development/MoodNotes/MoodNotes/MoodNotes/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA0F6BA9-E48C-43CD-8A20-E6253C7B1CFD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoodNotes/Controller/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "HomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DA0F6BA9-E48C-43CD-8A20-E6253C7B1CFD - 11b18bfff3d0e918"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoodNotes.HomeViewController.allNotes.getter : Swift.Optional&lt;Swift.Array&lt;MoodNotes.Note&gt;&gt;"
+                  moduleName = "MoodNotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anuragdixit/Desktop/Development/MoodNotes/MoodNotes/MoodNotes/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "DA0F6BA9-E48C-43CD-8A20-E6253C7B1CFD - 226e2adf6b994d2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoodNotes.HomeViewController.allNotes.setter : Swift.Optional&lt;Swift.Array&lt;MoodNotes.Note&gt;&gt;"
+                  moduleName = "MoodNotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anuragdixit/Desktop/Development/MoodNotes/MoodNotes/MoodNotes/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "DA0F6BA9-E48C-43CD-8A20-E6253C7B1CFD - e548cb1daa1a73a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoodNotes.HomeViewController.allNotes.modify : Swift.Optional&lt;Swift.Array&lt;MoodNotes.Note&gt;&gt;"
+                  moduleName = "MoodNotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anuragdixit/Desktop/Development/MoodNotes/MoodNotes/MoodNotes/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "DA0F6BA9-E48C-43CD-8A20-E6253C7B1CFD - 4e1fa4f68ae80d27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoodNotes.HomeViewController.allNotes.modify : Swift.Optional&lt;Swift.Array&lt;MoodNotes.Note&gt;&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MoodNotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anuragdixit/Desktop/Development/MoodNotes/MoodNotes/MoodNotes/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "DA0F6BA9-E48C-43CD-8A20-E6253C7B1CFD - 8bea6fb64dc8da19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoodNotes.HomeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MoodNotes.HomeViewController"
+                  moduleName = "MoodNotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anuragdixit/Desktop/Development/MoodNotes/MoodNotes/MoodNotes/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1308">
+               </Location>
+               <Location
+                  uuid = "DA0F6BA9-E48C-43CD-8A20-E6253C7B1CFD - af723cc75bba1812"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoodNotes.HomeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MoodNotes.HomeViewController&gt;"
+                  moduleName = "MoodNotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anuragdixit/Desktop/Development/MoodNotes/MoodNotes/MoodNotes/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
