@@ -53,3 +53,13 @@ extension Rate {
         }
     }
 }
+
+//MARK: - SETTINGS Enum-
+
+enum SettingType{
+    case app
+    case system
+    case url
+    case mail
+}
+

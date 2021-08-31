@@ -20,6 +20,9 @@
 		AF30319E26B052C3008FA2FD /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30319126B04EA1008FA2FD /* EyeView.swift */; };
 		AF30319F26B052C3008FA2FD /* ProgressableAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF30319326B04EA1008FA2FD /* ProgressableAnimationView.swift */; };
 		AF3031A126B06BC3008FA2FD /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3031A026B06BC3008FA2FD /* Protocols.swift */; };
+		AF70725326B15A1A004949E5 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70725226B15A1A004949E5 /* SettingsModel.swift */; };
+		AF70725526B16396004949E5 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70725426B16396004949E5 /* SettingsTableViewCell.swift */; };
+		AF70725726B163A6004949E5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70725626B163A6004949E5 /* SettingsViewController.swift */; };
 		AFE48FF726AE88FC001405CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE48FF626AE88FC001405CD /* AppDelegate.swift */; };
 		AFE48FF926AE88FC001405CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE48FF826AE88FC001405CD /* SceneDelegate.swift */; };
 		AFE48FFE26AE88FC001405CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE48FFC26AE88FC001405CD /* Main.storyboard */; };
@@ -85,6 +88,9 @@
 		AF30319526B04EA1008FA2FD /* MouthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouthView.swift; sourceTree = "<group>"; };
 		AF30319626B04EB7008FA2FD /* MoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodViewController.swift; sourceTree = "<group>"; };
 		AF3031A026B06BC3008FA2FD /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		AF70725226B15A1A004949E5 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		AF70725426B16396004949E5 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		AF70725626B163A6004949E5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		AFE48FF326AE88FC001405CD /* MoodNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE48FF626AE88FC001405CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFE48FF826AE88FC001405CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -164,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				AF30318B26AFFD93008FA2FD /* NotesCollectionViewCell.swift */,
+				AF70725426B16396004949E5 /* SettingsTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -181,6 +188,34 @@
 				AF30319526B04EA1008FA2FD /* MouthView.swift */,
 			);
 			path = MoodSettingHelper;
+			sourceTree = "<group>";
+		};
+		AF4203D126BDA470004421E2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AFE48FF626AE88FC001405CD /* AppDelegate.swift */,
+				AFE48FF826AE88FC001405CD /* SceneDelegate.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AF4203D226BDA482004421E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFE48FFC26AE88FC001405CD /* Main.storyboard */,
+				AFE4900226AE88FE001405CD /* Assets.xcassets */,
+				AFE4900426AE88FE001405CD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF70725126B159E4004949E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AFE4902D26AE89B3001405CD /* CoreData */,
+				AF70725226B15A1A004949E5 /* SettingsModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		AFE48FEA26AE88FC001405CD = {
@@ -211,15 +246,12 @@
 				AF30318A26AFFD7B008FA2FD /* Cells */,
 				AFE4903026AE945D001405CD /* Utils */,
 				AFE4904226AEE38E001405CD /* Controller */,
-				AFE48FF626AE88FC001405CD /* AppDelegate.swift */,
-				AFE48FF826AE88FC001405CD /* SceneDelegate.swift */,
-				AFE48FFC26AE88FC001405CD /* Main.storyboard */,
-				AFE4900226AE88FE001405CD /* Assets.xcassets */,
-				AFE4900426AE88FE001405CD /* LaunchScreen.storyboard */,
+				AF4203D126BDA470004421E2 /* Helper */,
+				AF4203D226BDA482004421E2 /* View */,
 				AFE4900726AE88FE001405CD /* Info.plist */,
+				AF70725126B159E4004949E5 /* Models */,
 				AF30318D26B04EA1008FA2FD /* MoodSettingHelper */,
 				AFE4903726AEDAFC001405CD /* C std */,
-				AFE4902D26AE89B3001405CD /* CoreData */,
 			);
 			path = MoodNotes;
 			sourceTree = "<group>";
@@ -284,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				AFE4904326AEE3B1001405CD /* HomeViewController.swift */,
+				AF70725626B163A6004949E5 /* SettingsViewController.swift */,
 				AF30319626B04EB7008FA2FD /* MoodViewController.swift */,
 				AFE4904526AEE3D4001405CD /* NoteViewController.swift */,
 			);
@@ -546,6 +579,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF70725326B15A1A004949E5 /* SettingsModel.swift in Sources */,
 				AF30319F26B052C3008FA2FD /* ProgressableAnimationView.swift in Sources */,
 				AFE4904126AEE23A001405CD /* TextViewPlaceholder.swift in Sources */,
 				AF30319826B052C0008FA2FD /* CustomSlider.swift in Sources */,
@@ -558,6 +592,7 @@
 				AFE4902B26AE8995001405CD /* Note+CoreDataClass.swift in Sources */,
 				AF30319B26B052C3008FA2FD /* MouthView.swift in Sources */,
 				AF30318C26AFFD93008FA2FD /* NotesCollectionViewCell.swift in Sources */,
+				AF70725526B16396004949E5 /* SettingsTableViewCell.swift in Sources */,
 				AFE4903626AE958E001405CD /* Constants.swift in Sources */,
 				AF30319926B052C3008FA2FD /* BackgroundView.swift in Sources */,
 				AF30319C26B052C3008FA2FD /* ShakeView.swift in Sources */,
@@ -567,6 +602,7 @@
 				AF3031A126B06BC3008FA2FD /* Protocols.swift in Sources */,
 				AFE4904426AEE3B1001405CD /* HomeViewController.swift in Sources */,
 				AFE48FF926AE88FC001405CD /* SceneDelegate.swift in Sources */,
+				AF70725726B163A6004949E5 /* SettingsViewController.swift in Sources */,
 				AFE4903226AE946E001405CD /* Enums.swift in Sources */,
 				AFE4902C26AE8995001405CD /* Note+CoreDataProperties.swift in Sources */,
 			);

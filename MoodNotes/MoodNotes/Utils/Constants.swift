@@ -8,6 +8,19 @@
 import Foundation
 import UIKit
 
+struct names{
+    static let appName = "MoodNotes"
+    static let mailID = "udixit419@gmail.com"
+}
+
+struct urls{
+    static let insta = ""
+    static let twitter = ""
+    static let privacyPolicy = ""
+    static let faq = ""
+    static let developer = ""
+}
+
 struct segues{
     static let newNote = "newNote"
     static let setMood = "setMood"
@@ -16,6 +29,7 @@ struct segues{
 struct Identifiers{
     static let notesCell = "notesCell"
     static let MoodVC = "mood"
+    static let settingsCell = "settingsCell"
 }
 
 struct moods{
@@ -24,3 +38,11 @@ struct moods{
     static let bad = "Hideous"
     static let Default = "" //TODO:- Add Emoji
 }
+
+struct MailSubjects{
+    static let help = "\(names.appName): Need Help with Something"
+    static let feature = "\(names.appName): New Feature Idea"
+    static let contact = "\(names.appName): Hey There"
+}
+
+
